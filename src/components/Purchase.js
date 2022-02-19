@@ -14,7 +14,6 @@ function Purchase({ book }) {
 
   const handleOk = async () => {
     // Get The Price of MATIC
-
     const options = {
       address: maticContractAddress,
       chain: 'eth',
@@ -23,7 +22,6 @@ function Purchase({ book }) {
     const priceMatic = book.price / price.usdPrice
 
     // Send Matic to book store owenr address
-
     const options1 = {
       type: 'native',
       amount: Moralis.Units.ETH(priceMatic),
@@ -47,7 +45,7 @@ function Purchase({ book }) {
   return (
     <>
       <span className="price"> ${book.price}</span>
-      <p>No Import Fees & Free Shipping Included</p>
+      <p>Digital Download</p>
       <h1 style={{ color: 'green' }}> In Stock </h1>
       <h3>Quantity</h3>
       <Select defaultValue={1} style={{ width: '100%' }}>

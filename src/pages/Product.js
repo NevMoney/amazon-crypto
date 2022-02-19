@@ -25,7 +25,7 @@ const Product = () => {
               Price:
               <span className="price"> ${book.price}</span>
             </p>
-            <p>Free Shipping</p>
+            <p>Digital Download</p>
             <hr></hr>
             <h3>About This Item</h3>
             <p>{book.about}</p>
