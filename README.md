@@ -10,13 +10,12 @@ If you've ever wondered what Amazon might look like using crypto, I think it wou
 ### `Run Locally`
 
     npm start
-    or
+or
     yarn start
 
 You will need Moralis server running on MATIC Mumbai Testnet. You will also need to have a wallet with some test MATIC to use.
 
 ### `Demo`
 
-[Test the App](https://with-a-twist-330bf.web.app/).
 
 This is a demo only, no items will be shipped!
