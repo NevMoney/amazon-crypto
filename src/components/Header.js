@@ -12,6 +12,7 @@ const categories = ['Books', 'Workbooks', 'Videos']
 
 const Header = () => {
   const { authenticate, account } = useMoralis()
+
   return (
     <div className="site-page-header-ghost-wrapper">
       <PageHeader
@@ -19,22 +20,16 @@ const Header = () => {
         extra={[
           <>
             <Link to="/">
-              <img src={Amazon} className="logo"></img>
-              <img src={BookStore} className="logo"></img>
+              <img src={Amazon} className="logo" alt=""></img>
+              <img src={BookStore} className="logo" alt=""></img>
             </Link>
-            <Search
-              placeholder="Find A Product"
-              enterButton
-              className="searchBar"
-            />
+            <Search placeholder="Search" enterButton className="searchBar" />
             <Button
               className="login"
-              key="1"
               type="primary"
               onClick={() =>
                 authenticate({
-                  signingMessage:
-                    'Welcome to Amazon Crypto. Login to continue.',
+                  signingMessage: `Welcome to Amazin' Crypto. Login to continue.`,
                 })
               }
             >
@@ -66,9 +61,9 @@ const Header = () => {
             <MenuOutlined />
             Categories
           </Space>
-          {categories.map((e) => {
+          {categories.map((e, i) => {
             return (
-              <Link to="/categories" state={e} className="categories">
+              <Link to="/categories" state={e} className="categories" key={i}>
                 {e}
               </Link>
             )

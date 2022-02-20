@@ -12,7 +12,6 @@ ReactDOM.render(
       appId="2N15sTFwuFhgW9L5w3MNrcFw7EBAHfurPyzCzBUC"
       serverUrl="https://bwbcowrxh7rr.usemoralis.com:2053/server"
     >
-      {/* <MoralisProvider> */}
       <BrowserRouter>
         <App />
       </BrowserRouter>

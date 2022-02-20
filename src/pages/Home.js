@@ -11,7 +11,6 @@ import Workbooks from '../images/bestYear.png'
 import Courses from '../images/Buffett Of RE.png'
 
 const carousel = [Carousel1, Carousel2, Carousel3]
-const catCard = [Books, Workbooks, Courses]
 
 const Home = () => {
   return (
@@ -20,7 +19,14 @@ const Home = () => {
         <Header />
         <Carousel autoplay className="carousel">
           {carousel.map((e) => {
-            return <img src={e} className="carousel-img" alt="carousel"></img>
+            return (
+              <img
+                src={e}
+                className="carousel-img"
+                alt="carousel"
+                key={e}
+              ></img>
+            )
           })}
         </Carousel>
         <div className="cards">
@@ -72,25 +78,6 @@ const Home = () => {
               Shop Now
             </Link>
           </Card>
-          {/* <Card className="card">
-            <h1>Shop By Category</h1>
-            <div className="card-content">
-              {catCard.map((e) => {
-                return (
-                  <img
-                    src={e}
-                    alt="category"
-                    className="card-category"
-                    onClick={() => console.log('beauty')}
-                  ></img>
-                )
-              })}
-              <br />
-              <Link to="/" className="link">
-                Shop All
-              </Link>
-            </div>
-          </Card> */}
         </div>
       </div>
     </>

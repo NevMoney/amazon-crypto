@@ -8,12 +8,12 @@ function Results({ category, rating, priceMin, priceMax }) {
     .filter((x) => x.rating >= rating)
     .filter((x) => x.price > priceMin)
     .filter((x) => x.price <= priceMax)
-  console.log(bookCategory)
+
   return (
     <>
       {bookCategory.map((e, i) => {
         return (
-          <Card>
+          <Card key={i}>
             <div style={{ display: 'flex' }}>
               <img
                 src={e.image}
@@ -26,7 +26,7 @@ function Results({ category, rating, priceMin, priceMax }) {
                 <h2> ${e.price}</h2>
                 <p>Digital Download</p>
                 <Link to="/product" state={e} className="login">
-                  Got to Product Page
+                  Product Page
                 </Link>
               </div>
             </div>
