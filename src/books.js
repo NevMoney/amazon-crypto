@@ -5,12 +5,13 @@ import Blessed from './images/blessed.png'
 import MoneyArt from './images/artOfMoney.png'
 import Challenge from './images/Buffett Of RE.png'
 import Pivot from './images/pivot.png'
+import Bundle from './images/Book Bundle.png'
 
 export const books = {
   Books: [
     {
       name: 'Money EMT',
-      price: 2.99,
+      price: 4.99,
       rating: 4.5,
       image: Emt,
       about: `Millions of people are finding themselves deep in debt today, having to continuously borrow in order to make ends meet. This is a fianncial emergency of epic proportion and the only solution is Money EMT. In this book, you will learn how to use the most effective and easy money management techniques to help you eliminate your debt fast, create financial runways, and start taking your personal financial plan to the next level.`,
@@ -25,7 +26,7 @@ export const books = {
     },
     {
       name: 'The Art Of Money Getting',
-      price: 4.99,
+      price: 6.99,
       rating: 5,
       image: MoneyArt,
       about:
@@ -34,7 +35,7 @@ export const books = {
     {
       name:
         'The Pivot Point System: 5 Keys To Transform Your Career, Health, & Wealth',
-      price: 7.99,
+      price: 9.99,
       rating: 4.7,
       image: Pivot,
       about:
@@ -43,16 +44,23 @@ export const books = {
     {
       name:
         'From Financially Stressed To Money Blessed: Become Financially Independent and Retire Early At Any Age',
-      price: 12.99,
+      price: 14.99,
       rating: 5,
       image: Blessed,
       about: `Whether you are starting from nothing or are deeply in debt, struggling for years, this book will help you think about money and investing differently. It will help you become financially independent and retire early, regardless of your age. This is not your average, run-of-the-mill retirement book. It's a book that will help you think about money, investing, retirement and life differently.`,
+    },
+    {
+      name: 'Book Bundle',
+      price: 29.99,
+      rating: 5,
+      image: Bundle,
+      about: `This bundle includes 5 books from the author and a workbook. If your focus is to drastically improve your financial health, this bundle is for you. Buy them all, speed up your financial health and save in the process.`,
     },
   ],
   Workbooks: [
     {
       name: 'My Best Year Ever: Success Journal',
-      price: 3.99,
+      price: 1.99,
       rating: 5,
       image: Bestyr,
       about: `If you've been struggling to make the most of your year, this workbook is for you. This workbook will guide you to plan our your months and your weeks. But unlike any other planner, this one also focuses on money. It keeps you accountable to yourself and your goals, to make the most of your year.`,
