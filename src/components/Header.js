@@ -31,7 +31,12 @@ const Header = () => {
               className="login"
               key="1"
               type="primary"
-              onClick={() => authenticate()}
+              onClick={() =>
+                authenticate({
+                  signingMessage:
+                    'Welcome to Amazon Crypto. Login to continue.',
+                })
+              }
             >
               {account ? (
                 <span>

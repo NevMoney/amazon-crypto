@@ -9,40 +9,36 @@ import Pivot from './images/pivot.png'
 export const books = {
   Books: [
     {
-      name:
-        'The Amazing Spiderman By Nick Spencer Vol. 1: Back To Basics (MARVEL ORIGINAL COMIC)',
-      price: 1.99,
-      rating: 4,
+      name: 'Money EMT',
+      price: 2.99,
+      rating: 4.5,
       image: Emt,
-      about:
-        "An alien invasion attacks New York City and the only one who can stop it is...Spider-Man?! But that's far from all you'll find here - a revelation from the past puts Peter Parker's job, relationships and whole life in jeopardy! And if even that's not enough, you'll see a new roommate, new love interests and a new villain!",
+      about: `Millions of people are finding themselves deep in debt today, having to continuously borrow in order to make ends meet. This is a fianncial emergency of epic proportion and the only solution is Money EMT. In this book, you will learn how to use the most effective and easy money management techniques to help you eliminate your debt fast, create financial runways, and start taking your personal financial plan to the next level.`,
     },
     {
-      name:
-        'The Amazing Spiderman By Nick Spencer Vol. 2: Friends And Foes (MARVEL ORIGINAL COMIC)',
-      price: 19.99,
-      rating: 5,
+      name: 'Have It All: Recipes For Perpetual Success',
+      price: 3.99,
+      rating: 3,
       image: Recipe,
       about:
-        "Wondering when Boomerang's status as Spider-Man's roommate would blow up? Well, the time has come and it's all here in this continuation of Nick Spencer's action-packed take on everybody's favorite web-head!",
+        'Some say that mindset is one of the most powerful tools available to us all. Unfortunately, not all of us use this free tool to help us reach success. It is how seekers of the hidden world of the mindset can explain why two people with the same upbringing, same resource, and under the same set of circumstances can have drastically different results. This book is a practical guide to the mindset, and how to use it to help you define and achieve your own success, over and over again.',
     },
     {
-      name:
-        'The Amazing Spiderman By Nick Spencer Vol. 3: Lifetime Achievement (MARVEL ORIGINAL COMIC)',
-      price: 2.99,
-      rating: 1,
+      name: 'The Art Of Money Getting',
+      price: 4.99,
+      rating: 5,
       image: MoneyArt,
       about:
-        "J. Jonah Jameson, former publisher of the Daily Bugle, former mayor of New York City, has a new job - as a shock jock! It's the perfect job for the outspoken Jonah, but is the world ready for a JJJ who's...pro-Spider-Man?! More importantly, is Peter Parker ready? ",
+        "Written by a true master of the art of money, P.T. Barnum's book is a must-have for anyone who wants to make money using age-old methods, used by the world's best-known business magnate, Mr. Barnum himself. Phineas Taylor Barnum was an American showman, businessman, and politician, remembered for founding the Barnum & Bailey Circus. So who better to teach the world how to make money than the master himself?",
     },
     {
       name:
-        'The Amazing Spiderman By Nick Spencer Vol. 4: Hunted (MARVEL ORIGINAL COMIC)',
-      price: 8.99,
-      rating: 3,
+        'The Pivot Point System: 5 Keys To Transform Your Career, Health, & Wealth',
+      price: 7.99,
+      rating: 4.7,
       image: Pivot,
       about:
-        "When Kraven returns, Spider-Man becomes the hunted! Sergei Kravinoff and his minions have been kidnapping animal-themed superhumans for months, and they need one more to complete the collection: the Spider. But what does Kraven want with all of them?! In Central Park, the prey is let loose, and the hunt begins - but Kraven isn't the one in pursuit. Who has Spidey in their crosshairs?",
+        'We all want a better life. Healthier body, quicker mind, career we love and generational wealth. But how do we do that? How do we make a shift in our lives to achieve everything we desire and not feel overwhelmed? Welcome to the Pivot Point System, where 5 experts share proven formulas to build your life, career and wealth.',
     },
     {
       name:
@@ -56,7 +52,7 @@ export const books = {
   Workbooks: [
     {
       name: 'My Best Year Ever: Success Journal',
-      price: 2.99,
+      price: 3.99,
       rating: 5,
       image: Bestyr,
       about: `If you've been struggling to make the most of your year, this workbook is for you. This workbook will guide you to plan our your months and your weeks. But unlike any other planner, this one also focuses on money. It keeps you accountable to yourself and your goals, to make the most of your year.`,

@@ -12,6 +12,7 @@ import Courses from '../images/Buffett Of RE.png'
 
 const carousel = [Carousel1, Carousel2, Carousel3]
 const catCard = [Books, Workbooks, Courses]
+
 const Home = () => {
   return (
     <>
@@ -29,6 +30,10 @@ const Home = () => {
               src={Books}
               alt="Books Category"
               className="card-content"
+              style={{
+                height: '300px',
+                width: 'auto',
+              }}
             ></img>
             <br />
             <Link to="/categories" state={'Books'} className="link">
@@ -41,6 +46,10 @@ const Home = () => {
               src={Courses}
               alt="The Pivot Point System"
               className="card-content"
+              style={{
+                height: '300px',
+                width: 'auto',
+              }}
             ></img>
             <br />
             <Link to="/categories" state={'Videos'} className="link">
@@ -53,6 +62,10 @@ const Home = () => {
               src={Workbooks}
               alt="Workbooks Category"
               className="card-content"
+              style={{
+                height: '300px',
+                width: 'auto',
+              }}
             ></img>
             <br />
             <Link to="/categories" state={'Workbooks'} className="link">
